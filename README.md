@@ -90,3 +90,60 @@ Methods of Proving:<br>
     A. Substitution or the basis step<br>
     B. Direct Proof or the inductive step <br>
 Mathematical Induction is usually used for proving summation and recursive functions.<br>
+<b> Week 5</b><br>
+Start of Lecture for the 2nd quiz <br>
+RECURSIVE ALGORITHMS<br>
+- reducing with smaller input <br>
+Ex. <br>
+	Recursive algorithm for a^n where a is a non-zero number and real, while n is not equal to a negative number <br>
+		power(a,n)<br>
+		{<br>
+			if (n==0)<br>
+				return 1;<br>
+			else<br>
+				return power(n-1)(a);<br>
+		}<br>
+Program Verification<br>
+- partial corectness <br>
+- show that the program always terminates<br>
+
+HOARSE TRIPLE<br>
+p{s}q<br>
+p = initial assertion<br>
+s = program <br>
+q = final assertion <br>
+
+ZENO'S PARADOX<br>
+-infinite series<br>
+	a. Geometric Series<br>
+	b. Power series<br>
+
+INTRODUCTION TO SET THEORY<br>
+1. Set - with distinct objects<br>
+2. Cardinality - number of distinct objects inside the set<br>
+
+<b> MIT APP INVENTOR TUTORIAL</b><br>
+
+<b> Week 6 = NO CLASSES </b><br>
+
+<b> Week 7 </b><br>
+Algorithm - finite set of precise instructions for performing a computation or for solving a problem <br>
+Ex. Finding the maximum value <br>
+
+max = ai;<br>
+	for i = 2:n<br>
+		if (max<ai)<br>
+			max = ai<br>
+
+The code is called <b> PSEUDOCODE</b><br>
+
+Precondition - statements that describe valid input<br>
+Postconditiona - condtions that the output must satisfy<br>
+Definiteness - steps of algorithm must be defined<br>
+Correctness - algorithm should produce the correct output all the time<br>
+Finiteness - should produce desired output after several number of steps<br>
+Generality - procedures should be applicable to all<br>
+
+2 Types of Algorithm<br>
+1. Linear Search Algorithm<br><br>
+2. Binary Search Algorithm<br>
